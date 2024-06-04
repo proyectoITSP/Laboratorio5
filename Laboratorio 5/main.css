@@ -1,0 +1,312 @@
+
+body{
+    background-color: #e9f2f9;
+}
+
+
+.contenedor_mayor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+     border: 54px;
+}
+
+.logo {
+ background-image: url(Imagenes/alfajor.png);
+ width: 10em;
+ height:13em;
+background-repeat: round;
+}
+
+.logo2 {
+background-image: url(Imagenes/alfajorchocoblanco.png);
+width:5rem;
+height: 7rem;
+background-repeat: round;
+margin-right: 1em;
+margin-top:1em;
+margin-bottom:1em;
+}
+
+
+.logo3 {
+    background-image: url(Imagenes/alfajornieve.png);
+    width:5rem;
+    height: 7rem;
+   background-repeat: round;
+}
+
+.nombre{
+    display: flex;
+    align-items: center;
+    color: #283b80;
+    letter-spacing: 2px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    -webkit-text-stroke: 1px #edebfc;
+
+}
+.nombre1{
+    font-size: 20px;
+}
+.nombre2{
+    font-size: 40px;
+}
+
+.TitulosFicha{
+    color: #2c2678;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    -webkit-text-stroke: 1px #edebfc;
+}
+
+.DatosFicha{
+    color:#fcfcfc;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.imagen {
+    max-width: 100%;
+    max-height: 700%;
+}
+
+.encabezado {
+    display: flex;
+    width: 100%;
+    height: 13rem;
+   align-items: center;
+   justify-content: center;
+  
+   
+}
+
+.contenedor_login {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff0000;
+    border:#bf0000 10px solid;
+    border-radius: 3em;
+    height: 100%;
+    height: 20rem;
+    max-width: 25rem;
+    width: 100%;
+    margin-top: 1rem;
+
+}
+
+.headers_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #281a78;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    -webkit-text-stroke: 1px #edebfc;
+}
+
+.cuerpo_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12rem;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+
+.campos {
+    border-radius: 30px;
+    height: 2rem;
+    border:#783000 5px solid;
+    text-align:center; 
+    background-color: #dbba56;
+    outline: none;
+    color:#f5de5d;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.campos::placeholder{
+    color:#f5de5d;
+}
+
+.campo{
+    border-radius: 30px;
+    height: 2rem;
+    border:#edaf51 5px solid;
+    text-align:center; 
+    background-color: #f4fca9;
+    outline: none;
+    color:#f2c457;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.campo::placeholder{
+    color:#f2c457;
+}
+
+.div_boton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.boton {
+    border: none;
+    background-color:#281a78;
+    color: white;
+    border:#edebfc 2px solid;
+    cursor: pointer;
+    border-radius:1em;
+  
+}
+.botonlogin{
+    height: 3rem;
+    width: 6rem;
+}
+.botonficha{
+    height: 5rem;
+    width: 8rem;
+}
+
+.boton:active {
+    background-color: #281a78 !important;
+    color: #edebfc !important;
+    border: 4px solid #edebfc  !important;
+  }
+  .boton:hover {
+    background-color: #edebfc;
+    color: #281a78;
+    border: 4px solid #281a78;
+  }
+
+
+.boton2{
+    border: none;
+    height: 4rem;
+    background-color: #800400;
+    color: #fcf5ed;
+    cursor: pointer;
+    width: 7rem;
+    border-radius: 1em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+}
+
+.boton2:active {
+    background-color: #fcf5ed !important;
+    color: #800400 !important;
+    border: 4px solid #800400  !important;
+  }
+  .boton2:hover {
+    background-color: #fcf5ed;
+    color: #800400;
+  }
+
+
+.encabezado2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+    background-color: #f7be00;
+    border-bottom: solid 4px #f6faa7;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    min-height: 16rem;
+    width: 100%;
+    
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.container1{
+    height: 105rem;
+    background-color: #f7ba00;
+}
+
+.container2{
+    height: 30rem;
+    background-color: #2a72ad;
+}
+
+.usuario{
+    display: flex;
+    flex-wrap: wrap;
+    height:14em;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #f7be00;
+    border-bottom: solid 4px #f6faa7;
+}
+.alumno{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.hr{
+    border: solid 2px #f6faa7;
+    width: 100%;
+}
+.encabezado3{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 7rem;
+    background-color: #2a72ad;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.cambiar_datos{
+    display: flex;
+    height: 4rem;
+    width: 6.5rem;
+    align-items: center;
+    color: black;
+    background-color: #cbe86b;
+    text-decoration: none;
+    padding-left: 1.5em;
+    border-radius: 1em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #4b9cf2;
+    font-size: 25px;
+}
+.cambiar_datos:active {
+    background-color: #fcf5ed !important;
+    color: #fcf5ed !important;
+    border: 4px solid #cbe86b  !important;
+    -webkit-text-stroke: 1px #cbe86b !important;
+  }
+  .cambiar_datos:hover {
+    background-color: #fcf5ed;
+    color: #fcf5ed;
+    -webkit-text-stroke: 1px #cbe86b;
+  }
